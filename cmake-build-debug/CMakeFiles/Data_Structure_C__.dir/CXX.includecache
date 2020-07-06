@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GithubProject/Data-Structure-CPlusPlus/include/LinearTable/SequenceTable.h
+
+E:/GithubProject/Data-Structure-CPlusPlus/include/hello/hello.h
+iostream
+-
+
+E:/GithubProject/Data-Structure-CPlusPlus/src/main.cpp
+iostream
+-
+../include/hello/hello.h
+E:/GithubProject/Data-Structure-CPlusPlus/include/hello/hello.h
+../include/LinearTable/SequenceTable.h
+E:/GithubProject/Data-Structure-CPlusPlus/include/LinearTable/SequenceTable.h
+

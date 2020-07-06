@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GithubProject/Data-Structure-C++/include/LinearTable/SequenceTable.cpp
+SequenceTable.h
+E:/GithubProject/Data-Structure-C++/include/LinearTable/SequenceTable.h
+
+E:/GithubProject/Data-Structure-C++/include/LinearTable/SequenceTable.h
+

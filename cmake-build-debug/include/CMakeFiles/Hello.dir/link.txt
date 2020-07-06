@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libHello.a  CMakeFiles/Hello.dir/hello.cpp.obj
+D:\MinGW\bin\ranlib.exe libHello.a

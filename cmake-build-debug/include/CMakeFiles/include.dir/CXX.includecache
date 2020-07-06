@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GithubProject/Data-Structure-C++/include/hello.cpp
+hello.h
+E:/GithubProject/Data-Structure-C++/include/hello.h
+
+E:/GithubProject/Data-Structure-C++/include/hello.h
+iostream
+-
+

@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libLinearTable.a  CMakeFiles/LinearTable.dir/SequenceTable.cpp.obj
+D:\MinGW\bin\ranlib.exe libLinearTable.a
