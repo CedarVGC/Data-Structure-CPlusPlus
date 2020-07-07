@@ -1,9 +1,10 @@
 #include <iostream>
-#include "..\include\hello\hello.h"
-#include "..\include\LinearTable\SequenceTable.h"
+#include "..\test\Q2\test_q1.h"
 int main() {
-   /*hello h;
-   h.say_hello();*/
-   Sqlist<int> s(2);
-    return 0;
+   //test_del_x();
+   //test_del_s_t2();
+   //test_del_s_t();
+   //test_del_Same();
+   test_Merge();
+   return 0;
 }

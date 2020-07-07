@@ -1,45 +1,84 @@
 //
 // Created by Administrator on 2020/7/6.
-//é¡ºåºè¡¨æ•°æ®ç»“æ„
+//Ë³Ğò±íÊı¾İ½á¹¹
 //
 #ifndef DATA_STRUCTURE_C_SEQUENCETABLE_H
 #define DATA_STRUCTURE_C_SEQUENCETABLE_H
+#include <iostream>
+#include <cassert>
 template <typename T>
-/*é¡ºåºè¡¨ï¼ŒåŸºäºæ•°ç»„å®ç°ï¼Œå­˜å‚¨ç©ºé—´æ»¡æ—¶è‡ªåŠ¨æ‰©å®¹*/
+/*Ë³Ğò±í£¬»ùÓÚÊı×éÊµÏÖ£¬´æ´¢¿Õ¼äÂúÊ±×Ô¶¯À©Èİ*/
 class Sqlist{
     private:
-        T* data;//å…ƒç´ 
-        int MaxSize=100;//æœ€å¤§å®¹é‡
-        int length=0;//ç±»å‹å®šä¹‰
+        T* data;//ÔªËØ
+        int MaxSize=100;//×î´óÈİÁ¿
+        int length=0;//ÀàĞÍ¶¨Òå
     public:
         Sqlist(){data=new T[MaxSize];}
-        Sqlist(int MaxSize){this->MaxSize=MaxSize;}
+        Sqlist(int MaxSize){this->MaxSize=MaxSize;data=new T[MaxSize];}
+        Sqlist(T* data,int size);//Êı×éĞÎÊ½³õÊ¼»¯»¯
         ~Sqlist() {delete [] data;}
-        void ListInsert(T e);//åœ¨è¡¨å°¾ç«¯æ·»åŠ æ•°æ®
-        void ListInsert(int i,T e);//åœ¨ç¬¬iå·ä½ç½®æ’å…¥å…ƒç´ 
-        void ListDelete();//åˆ é™¤è¡¨å°¾æ•°æ®
-        void ListDelete(int i);//åˆ é™¤è¡¨å°¾ç¬¬iå·ä½ç½®çš„æ•°æ®
+        int Length(){ return length;};//±í³¤
+        void SetLength(int n){length=n; }
+        bool Empty(){ return length==0;}//ÅĞ¿Õ
+        T& GetElem(int i);//²éÕÒµÚiÎ»µÄÔªËØµÄÖµ
+        void SetElem(int i, const T& e);
+        int LocateElem(const T &e);//²éÕÒµÚÒ»¸öÖµÎªeµÄÔªËØµÄÎ»ÖÃ
+        void ListInsert(const T &e);//ÔÚ±íÎ²¶ËÌí¼ÓÊı¾İ
+        void ListInsert(int i,const T &e);//ÔÚµÚiºÅÎ»ÖÃ²åÈëÔªËØ
+        void ListDelete();//É¾³ı±íÎ²Êı¾İ
+        void ListDelete(int i);//É¾³ı±íÎ²µÚiºÅÎ»ÖÃµÄÊı¾İ
+        void PrintList();//Êä³ö
 };
 
 template <typename T>
-void Sqlist<T>::ListInsert(T e) {
-    if(MaxSize>length){
+Sqlist<T>::Sqlist(T* d,int size){
+    data=new T[MaxSize];
+    for(int i=0;i<size;i++){
+        this->ListInsert(d[i]);
+    }
+}
+
+template <typename T>
+T& Sqlist<T>::GetElem(int i) {
+    assert(i>=0&&i<length);
+    return data[i];
+}
+
+template <typename T>
+void Sqlist<T>::SetElem(int i, const T &e) {
+    assert(i>=0&&i<length);
+    data[i]=e;
+}
+
+template <typename T>
+int Sqlist<T>::LocateElem(const T &e) {
+    int i=0;
+    for(;i<length;i++){
+        if(data[i]==e){
+            return i;
+        }
+    }
+    return -1;
+}
+template <typename T>
+void Sqlist<T>::ListInsert(const T &e) {
+    if(MaxSize<=length){
         MaxSize*=2;
         T* newdata=new T[MaxSize];
-        for(int i=0;i<length;i++)
-        {
+        for(int i=0;i<length;i++){
             newdata[i]=data[i];
         }
-        delete [] data;
+        delete[] data;
         data=newdata;
     }
     data[length++]=e;
 }
 
 template <typename T>
-void Sqlist<T>::ListInsert(int i, T e) {
+void Sqlist<T>::ListInsert(int i,const T &e) {
     if(i<0||i>length){
-        std::cout<<"iè¶…å‡ºèŒƒå›´"<<std::endl;
+        std::cout<<"i³¬³ö·¶Î§"<<std::endl;
         return;
     }
     if(MaxSize>length){
@@ -62,7 +101,7 @@ void Sqlist<T>::ListInsert(int i, T e) {
 template <typename T>
 void Sqlist<T>::ListDelete() {
     if(length<0){
-        std::cout<<"è¡¨ä¸ºç©º"<<std::endl;
+        std::cout<<"±íÎª¿Õ"<<std::endl;
         return;
     }
     length--;
@@ -71,12 +110,20 @@ void Sqlist<T>::ListDelete() {
 template <typename T>
 void Sqlist<T>::ListDelete(int i){
     if(i<0||i>length-1){
-        std::cout<<"iè¶…å‡ºèŒƒå›´"<<std::endl;
+        std::cout<<"i³¬³ö·¶Î§"<<std::endl;
         return;
     }
     for(int j=i+1;j<length;j++){
         data[j-1]=data[j];
     }
     length--;
+}
+
+template <typename T>
+void Sqlist<T>::PrintList() {
+    for(int i=0;i<length;i++){
+        std::cout<<data[i]<<" ";
+    }
+    std::cout<<std::endl;
 }
 #endif //DATA_STRUCTURE_C_SEQUENCETABLE_H

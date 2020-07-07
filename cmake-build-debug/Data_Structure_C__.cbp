@@ -5,7 +5,7 @@
 		<Option title="Data_Structure_C__"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\include\;CMake Files\include\hello\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\include\;CMake Files\include\hello\;CMake Files\Question\;CMake Files\Question\Q2\;CMake Files\test\;CMake Files\test\Q2\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug"/>
@@ -125,6 +125,50 @@
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/include/hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test_Q2">
+				<Option output="E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/libtest_Q2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/Makefile&quot;  VERBOSE=1 test_Q2"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Q2/fast">
+				<Option output="E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/libtest_Q2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/Makefile&quot;  VERBOSE=1 test_Q2/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/include/hello/hello.cpp">
 			<Option target="hello"/>
@@ -135,6 +179,12 @@
 		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/src/main.cpp">
 			<Option target="Data_Structure_C__"/>
 		</Unit>
+		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/test/Q2/test_q1.cpp">
+			<Option target="test_Q2"/>
+		</Unit>
+		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/test/Q2/test_q1.h">
+			<Option target="test_Q2"/>
+		</Unit>
 		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -143,6 +193,18 @@
 		</Unit>
 		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/include/hello/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\include\hello\"/>
+		</Unit>
+		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/Question/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Question\"/>
+		</Unit>
+		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/Question/Q2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Question\Q2\"/>
+		</Unit>
+		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/test/Q2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\Q2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

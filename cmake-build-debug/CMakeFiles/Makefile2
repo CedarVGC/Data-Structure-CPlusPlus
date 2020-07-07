@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\GithubProject\Data-Structure-CPlusPlus\cmake-build-debug
 # Target rules for target CMakeFiles/Data_Structure_C__.dir
 
 # All Build rule for target.
-CMakeFiles/Data_Structure_C__.dir/all: include/hello/CMakeFiles/hello.dir/all
+CMakeFiles/Data_Structure_C__.dir/all: test/Q2/CMakeFiles/test_Q2.dir/all
 	$(MAKE) -f CMakeFiles\Data_Structure_C__.dir\build.make CMakeFiles/Data_Structure_C__.dir/depend
 	$(MAKE) -f CMakeFiles\Data_Structure_C__.dir\build.make CMakeFiles/Data_Structure_C__.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\GithubProject\Data-Structure-CPlusPlus\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Data_Structure_C__"
@@ -170,6 +170,115 @@ include/hello/CMakeFiles/hello.dir/clean:
 
 # clean rule for target.
 clean: include/hello/CMakeFiles/hello.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Question
+
+# Convenience name for "all" pass in the directory.
+Question/all: Question/Q2/all
+
+.PHONY : Question/all
+
+# Convenience name for "clean" pass in the directory.
+Question/clean: Question/Q2/clean
+
+.PHONY : Question/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Question/preinstall: Question/Q2/preinstall
+
+.PHONY : Question/preinstall
+
+#=============================================================================
+# Directory level rules for directory Question/Q2
+
+# Convenience name for "all" pass in the directory.
+Question/Q2/all:
+
+.PHONY : Question/Q2/all
+
+# Convenience name for "clean" pass in the directory.
+Question/Q2/clean:
+
+.PHONY : Question/Q2/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Question/Q2/preinstall:
+
+.PHONY : Question/Q2/preinstall
+
+#=============================================================================
+# Directory level rules for directory test
+
+# Convenience name for "all" pass in the directory.
+test/all: test/Q2/all
+
+.PHONY : test/all
+
+# Convenience name for "clean" pass in the directory.
+test/clean: test/Q2/clean
+
+.PHONY : test/clean
+
+# Convenience name for "preinstall" pass in the directory.
+test/preinstall: test/Q2/preinstall
+
+.PHONY : test/preinstall
+
+#=============================================================================
+# Directory level rules for directory test/Q2
+
+# Convenience name for "all" pass in the directory.
+test/Q2/all: test/Q2/CMakeFiles/test_Q2.dir/all
+
+.PHONY : test/Q2/all
+
+# Convenience name for "clean" pass in the directory.
+test/Q2/clean: test/Q2/CMakeFiles/test_Q2.dir/clean
+
+.PHONY : test/Q2/clean
+
+# Convenience name for "preinstall" pass in the directory.
+test/Q2/preinstall:
+
+.PHONY : test/Q2/preinstall
+
+#=============================================================================
+# Target rules for target test/Q2/CMakeFiles/test_Q2.dir
+
+# All Build rule for target.
+test/Q2/CMakeFiles/test_Q2.dir/all:
+	$(MAKE) -f test\Q2\CMakeFiles\test_Q2.dir\build.make test/Q2/CMakeFiles/test_Q2.dir/depend
+	$(MAKE) -f test\Q2\CMakeFiles\test_Q2.dir\build.make test/Q2/CMakeFiles/test_Q2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\GithubProject\Data-Structure-CPlusPlus\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target test_Q2"
+.PHONY : test/Q2/CMakeFiles/test_Q2.dir/all
+
+# Include target in all.
+all: test/Q2/CMakeFiles/test_Q2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/Q2/CMakeFiles/test_Q2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GithubProject\Data-Structure-CPlusPlus\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 test/Q2/CMakeFiles/test_Q2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GithubProject\Data-Structure-CPlusPlus\cmake-build-debug\CMakeFiles 0
+.PHONY : test/Q2/CMakeFiles/test_Q2.dir/rule
+
+# Convenience name for target.
+test_Q2: test/Q2/CMakeFiles/test_Q2.dir/rule
+
+.PHONY : test_Q2
+
+# clean rule for target.
+test/Q2/CMakeFiles/test_Q2.dir/clean:
+	$(MAKE) -f test\Q2\CMakeFiles\test_Q2.dir\build.make test/Q2/CMakeFiles/test_Q2.dir/clean
+.PHONY : test/Q2/CMakeFiles/test_Q2.dir/clean
+
+# clean rule for target.
+clean: test/Q2/CMakeFiles/test_Q2.dir/clean
 
 .PHONY : clean
 

@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libtest_Q2.a  CMakeFiles/test_Q2.dir/test_q1.cpp.obj
+D:\MinGW\bin\ranlib.exe libtest_Q2.a

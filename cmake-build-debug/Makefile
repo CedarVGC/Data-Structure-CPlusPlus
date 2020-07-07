@@ -135,6 +135,19 @@ hello/fast:
 	$(MAKE) -f include\hello\CMakeFiles\hello.dir\build.make include/hello/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
+#=============================================================================
+# Target rules for targets named test_Q2
+
+# Build rule for target.
+test_Q2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test_Q2
+.PHONY : test_Q2
+
+# fast build rule for target.
+test_Q2/fast:
+	$(MAKE) -f test\Q2\CMakeFiles\test_Q2.dir\build.make test/Q2/CMakeFiles/test_Q2.dir/build
+.PHONY : test_Q2/fast
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -172,6 +185,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... hello
+	@echo ... test_Q2
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

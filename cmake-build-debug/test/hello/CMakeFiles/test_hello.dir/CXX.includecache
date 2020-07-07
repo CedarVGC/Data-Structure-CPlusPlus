@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GithubProject/Data-Structure-CPlusPlus/include/hello/hello.h
+iostream
+-
+
+E:/GithubProject/Data-Structure-CPlusPlus/test/hello/test_hello.cpp
+test_hello.h
+E:/GithubProject/Data-Structure-CPlusPlus/test/hello/test_hello.h
+
+E:/GithubProject/Data-Structure-CPlusPlus/test/hello/test_hello.h
+../../include/hello/hello.h
+E:/GithubProject/Data-Structure-CPlusPlus/include/hello/hello.h
+

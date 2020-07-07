@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libQ2.a  CMakeFiles/Q2.dir/Q2.cpp.obj
+D:\MinGW\bin\ranlib.exe libQ2.a

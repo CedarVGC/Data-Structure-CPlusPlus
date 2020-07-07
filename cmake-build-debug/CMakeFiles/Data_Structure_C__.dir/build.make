@@ -78,7 +78,7 @@ Data_Structure_C___EXTERNAL_OBJECTS =
 
 Data_Structure_C__.exe: CMakeFiles/Data_Structure_C__.dir/src/main.cpp.obj
 Data_Structure_C__.exe: CMakeFiles/Data_Structure_C__.dir/build.make
-Data_Structure_C__.exe: include/hello/libhello.a
+Data_Structure_C__.exe: test/Q2/libtest_Q2.a
 Data_Structure_C__.exe: CMakeFiles/Data_Structure_C__.dir/linklibs.rsp
 Data_Structure_C__.exe: CMakeFiles/Data_Structure_C__.dir/objects1.rsp
 Data_Structure_C__.exe: CMakeFiles/Data_Structure_C__.dir/link.txt
