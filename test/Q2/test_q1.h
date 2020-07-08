@@ -10,4 +10,5 @@ void test_del_s_t2();
 void test_del_s_t();
 void test_del_Same();
 void test_Merge();
+void test_Exchange();
 #endif //DATA_STRUCTURE_C_TEST_Q1_H

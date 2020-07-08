@@ -119,6 +119,21 @@ void Merge(Sqlist<T> &A,Sqlist<T> &B,Sqlist<T> &C){
             }
         }
     }
-    return;
+}
+
+template <typename T>
+void Exchange_Reverse(Sqlist<T> &L,int left,int right){
+    for(int start=left,end=right;start<end;start++,end--){
+        T temp=L.GetElem(start);
+        L.SetElem(start,L.GetElem(end));
+        L.SetElem(end,temp);
+    }
+}
+
+template <typename T>
+void Exchange(Sqlist<T> &L,int m,int n){
+    Exchange_Reverse(L,0,m+n-1);
+    Exchange_Reverse(L,0,n-1);
+    Exchange_Reverse(L,n,m+n-1);
 }
 #endif //DATA_STRUCTURE_C_Q1_H

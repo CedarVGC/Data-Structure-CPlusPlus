@@ -44,3 +44,11 @@ void test_Merge(){
     Merge(s1,s2,s3);
     s3.PrintList();
 }
+
+void test_Exchange(){
+    int arr1[]={1,2,3,4,5};
+    Sqlist<int> s1(arr1,sizeof(arr1)/sizeof(int));
+    s1.PrintList();
+    Exchange(s1,3,2);
+    s1.PrintList();
+}

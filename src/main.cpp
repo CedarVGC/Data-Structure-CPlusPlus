@@ -5,6 +5,7 @@ int main() {
    //test_del_s_t2();
    //test_del_s_t();
    //test_del_Same();
-   test_Merge();
+   //test_Merge();
+   test_Exchange();
    return 0;
 }
