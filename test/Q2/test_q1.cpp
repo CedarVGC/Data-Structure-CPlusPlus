@@ -2,6 +2,41 @@
 // Created by Administrator on 2020/7/7.
 //
 #include "test_q1.h"
+void test_Q2(){
+    int x=0;
+    std::cin>>x;
+    switch (x){
+        case 3:
+            test_del_x();
+            break;
+        case 4:
+            test_del_s_t2();
+            break;
+        case 5:
+            test_del_s_t();
+            break;
+        case 6:
+            test_del_Same();
+            break;
+        case 7:
+            test_Merge();
+            break;
+        case 8:
+            test_Exchange();
+            break;
+        case 9:
+            test_SearchExchangeInsert();
+            break;
+        case 10:
+            test_Converse();
+            break;
+        case 13:
+            test_FindMissMin();
+            break;
+        default:
+            break;
+    }
+}
 void test_del_x(){
     int arr[]={2,3,2,2,4};
     Sqlist<int> s(arr,sizeof(arr)/sizeof(int));
@@ -51,4 +86,31 @@ void test_Exchange(){
     s1.PrintList();
     Exchange(s1,3,2);
     s1.PrintList();
+}
+
+void test_Converse(){
+    int arr1[]={1,2,3,4,5};
+    Sqlist<int> s1(arr1,sizeof(arr1)/sizeof(int));
+    s1.PrintList();
+    Converse(s1,3);
+    s1.PrintList();
+}
+
+void test_SearchExchangeInsert(){
+    int arr1[]={1,2,3,4,5};
+    Sqlist<int> s1(arr1,sizeof(arr1)/sizeof(int));
+    s1.PrintList();
+    SearchExchangeInsert(s1,5);
+    s1.PrintList();
+}
+
+void test_FindMissMin(){
+    int arr1[]={-5,3,2,3};
+    Sqlist<int> s1(arr1,sizeof(arr1)/sizeof(int));
+    s1.PrintList();
+    std::cout<<FindMissMin(s1)<<std::endl;
+    int arr2[]={1,2,3};
+    Sqlist<int> s2(arr2,sizeof(arr2)/sizeof(int));
+    s1.PrintList();
+    std::cout<<FindMissMin(s2)<<std::endl;
 }

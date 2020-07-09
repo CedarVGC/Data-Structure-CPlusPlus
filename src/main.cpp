@@ -1,11 +1,11 @@
 #include <iostream>
 #include "..\test\Q2\test_q1.h"
+#include "../include/LinearTable/LinkedList.h"
 int main() {
-   //test_del_x();
-   //test_del_s_t2();
-   //test_del_s_t();
-   //test_del_Same();
-   //test_Merge();
-   test_Exchange();
+   //test_Q2();
+   LinkList<int> s;
+   s.List_HeadInsert(1);
+   s.List_HeadInsert(2);
+   s.PrintLinkList();
    return 0;
 }

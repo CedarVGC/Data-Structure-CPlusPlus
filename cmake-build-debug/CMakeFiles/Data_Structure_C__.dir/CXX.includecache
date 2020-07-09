@@ -10,6 +10,10 @@ E:/GithubProject/Data-Structure-CPlusPlus/Question/Q2/q1.h
 ../../include/LinearTable/SequenceTable.h
 E:/GithubProject/Data-Structure-CPlusPlus/include/LinearTable/SequenceTable.h
 
+E:/GithubProject/Data-Structure-CPlusPlus/include/LinearTable/LinkedList.h
+iostream
+-
+
 E:/GithubProject/Data-Structure-CPlusPlus/include/LinearTable/SequenceTable.h
 iostream
 -
@@ -21,6 +25,8 @@ iostream
 -
 ../test/Q2/test_q1.h
 E:/GithubProject/Data-Structure-CPlusPlus/test/Q2/test_q1.h
+../include/LinearTable/LinkedList.h
+E:/GithubProject/Data-Structure-CPlusPlus/include/LinearTable/LinkedList.h
 
 E:/GithubProject/Data-Structure-CPlusPlus/test/Q2/test_q1.h
 ../../Question/Q2/q1.h

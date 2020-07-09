@@ -130,10 +130,66 @@ void Exchange_Reverse(Sqlist<T> &L,int left,int right){
     }
 }
 
+//8题
 template <typename T>
 void Exchange(Sqlist<T> &L,int m,int n){
     Exchange_Reverse(L,0,m+n-1);
     Exchange_Reverse(L,0,n-1);
     Exchange_Reverse(L,n,m+n-1);
+}
+//9题
+template <typename T>
+void SearchExchangeInsert(Sqlist<T> &L,T x){
+    if(L.Empty()||L.GetElem(0)>x){
+        L.ListInsert(0,x);
+    }
+    for(int i=0;i<L.Length();i++){
+        if(L.GetElem(i)==x){
+            if(i+1<L.Length()){
+                T temp=L.GetElem(i);
+                L.SetElem(i,L.GetElem(i+1));
+                L.SetElem(i+1,temp);
+            }
+            return;
+        }
+    }
+    L.ListInsert(x);
+}
+
+//10题
+template <typename T>
+void Converse(Sqlist<T> & L,int p){
+    Exchange_Reverse(L,0,p-1);
+    Exchange_Reverse(L,p,L.Length()-1);
+    Exchange_Reverse(L,0,L.Length()-1);
+
+}
+
+//11题
+template <typename T>
+void M_Search(Sqlist<T> &L){
+
+}
+//12题
+template <typename T>
+int Majority(Sqlist<T> &L){
+
+}
+//13题
+template <typename T>
+int FindMissMin(Sqlist<T> &L){
+    int *temp;
+    temp=new int[L.Length()]();
+    for(int i=0;i<L.Length();i++){
+        if(L.GetElem(i)>0){
+            temp[i]=1;
+        }
+    }
+    for(int i=0;i<L.Length();i++){
+        if(temp[i]==0){
+            return i+1;
+        }
+    }
+    return L.Length()+1;
 }
 #endif //DATA_STRUCTURE_C_Q1_H
