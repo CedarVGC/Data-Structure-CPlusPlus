@@ -23,7 +23,7 @@ public:
     DNode* next=NULL;
     DNode(){};
     DNode(T x){data=x;}
-    ~DNode(){};
+    ~DNode(){ };
 };
 
 template <typename T>
@@ -31,14 +31,22 @@ class LinkList{
 public:
     LNode<T> *head;//头结点
     LNode<T> *tail;//尾指针
-    int length=0;
+    int length=0;//链表长度
     LinkList(){
         head=new LNode<T>();
         tail=head;
     }
-    ~LinkList(){};
+    ~LinkList(){
+        for(LNode<T> *t=head;t!=NULL;){
+            LNode<T> *t_next=t->next;
+            delete t;
+            t=t_next;
+        }
+    }
     void List_HeadInsert(T x);
     void List_TailInsert(T x);
+    void Insert_Node(int i,T x);
+    void delete_Node(int i);
     LNode<T>* GetElem(int i);
     void PrintLinkList();
 };
@@ -52,6 +60,7 @@ void LinkList<T>::List_HeadInsert(T x){
     head->next=temp;
     length++;
 }
+
 template <typename T>
 void LinkList<T>::List_TailInsert(T x) {
     LNode<T>* temp=new LNode<T>(x);
@@ -62,7 +71,7 @@ void LinkList<T>::List_TailInsert(T x) {
 
 template <typename T>
 LNode<T>* LinkList<T>::GetElem(int i) {
-    LNode<T>* p=head;
+    LNode<T>* p=head->next;
     if(i<0||i>length-1) {
         return NULL;
     }else{
@@ -70,11 +79,57 @@ LNode<T>* LinkList<T>::GetElem(int i) {
             if(j==i){
                 break;
             }
-            j++;
             p=p->next;
         }
     }
     return p;
+}
+
+template <typename T>
+void LinkList<T>::Insert_Node(int i, T x){
+    if(i<0||i>length){
+        return;
+    }
+    if(i==length){
+        LNode<T>* temp=new LNode<T>(x);
+        tail->next=temp;
+        tail=temp;
+        length++;
+        return;
+    }
+    int count=0;
+    for(auto t_prev=head,t=head->next;t!=NULL;t_prev=t,t=t->next){
+        if(i==count){
+            LNode<T>* temp=new LNode<T>(x);
+            t_prev->next=temp;
+            temp->next=t;
+            length++;
+            break;
+        }
+        count++;
+    }
+}
+
+template <typename T>
+void LinkList<T>::delete_Node(int i) {
+    //std::cout<<tail->data<<"dd";
+    if(i<0||i>length-1){
+        return;
+    }
+    int count=0;
+    LNode<T>* t_prev=head;
+    LNode<T>* t=head->next;
+    for(;t!=NULL;t_prev=t,t=t->next){
+        if(i==count){
+            if(t==tail){
+                tail=t_prev;
+            }
+            t_prev->next=t->next;
+            delete t;
+            break;
+        }
+        count++;
+    }
 }
 
 template <typename T>

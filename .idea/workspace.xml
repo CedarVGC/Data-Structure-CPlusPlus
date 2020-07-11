@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="Data_Structure_C__" targetName="hello" />
       <config projectName="Data_Structure_C__" targetName="test_Q2" />
       <config projectName="Data_Structure_C__" targetName="Data_Structure_C__" />
-      <config projectName="Data_Structure_C__" targetName="hello" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/test/Q2/test_q1.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Q2/test_q1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="888">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -47,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/LinearTable/SequenceTable.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1741">
+            <state relative-caret-position="569">
               <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
               <folding>
                 <element signature="e#139#158#0" expanded="true" />
@@ -58,18 +58,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/StackQueue/Queue.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#144#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/LinearTable/LinkedList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-519">
-              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
               <folding>
                 <element signature="e#152#164#0" expanded="true" />
-                <element signature="e#328#340#0" expanded="true" />
-                <element signature="e#327#339#0" expanded="true" />
-                <element signature="e#958#970#0" expanded="true" />
-                <element signature="e#809#821#0" expanded="true" />
-                <element signature="e#1170#1182#0" expanded="true" />
-                <element signature="e#1247#1259#0" expanded="true" />
+                <element signature="e#1299#1311#0" expanded="true" />
+                <element signature="e#1451#1463#0" expanded="true" />
+                <element signature="e#2279#2291#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,30 +87,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="72">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Question/Q2/q1.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="52" />
-              <folding>
-                <element signature="e#169#181#0" expanded="true" />
-                <element signature="e#2099#2111#0" expanded="true" />
-                <element signature="e#2751#2763#0" expanded="true" />
-                <element signature="e#3000#3012#0" expanded="true" />
-                <element signature="e#3170#3182#0" expanded="true" />
-                <element signature="e#3602#3614#0" expanded="true" />
-                <element signature="e#3781#3793#0" expanded="true" />
-                <element signature="e#3845#3857#0" expanded="true" />
-                <element signature="e#3172#3184#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,12 +125,14 @@
         <option value="$PROJECT_DIR$/test/Q2/test_q1.h" />
         <option value="$PROJECT_DIR$/test/Q2/test_q1.cpp" />
         <option value="$PROJECT_DIR$/Question/Q2/q1.h" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/include/LinearTable/LinkedList.h" />
+        <option value="$PROJECT_DIR$/include/StackQueue/Stack.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/include/StackQueue/Queue.h" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="565" />
     <option name="y" value="80" />
     <option name="width" value="1750" />
@@ -153,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,11 +157,27 @@
               <item name="Data-Structure-CPlusPlus" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Data_Structure_C__" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structure-CPlusPlus" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="LinearTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structure_C__" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structure-CPlusPlus" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="StackQueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structure_C__" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structure-CPlusPlus" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,23 +233,25 @@
       <workItem from="1594049208216" duration="130000" />
       <workItem from="1594080901874" duration="17819000" />
       <workItem from="1594215921292" duration="1890000" />
-      <workItem from="1594254104838" duration="7843000" />
+      <workItem from="1594254104838" duration="11232000" />
+      <workItem from="1594339837673" duration="593000" />
+      <workItem from="1594382039583" duration="6704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27682000" />
+    <option name="totallyTimeSpent" value="38368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1883378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19369973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,6 +371,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/Q2/test_q1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Q2/test_q1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Question/Q2/q1.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -379,23 +403,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Q2/test_q1.h">
+    <entry file="file://$PROJECT_DIR$/include/LinearTable/LinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#152#164#0" expanded="true" />
+            <element signature="e#1299#1311#0" expanded="true" />
+            <element signature="e#1451#1463#0" expanded="true" />
+            <element signature="e#2279#2291#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Q2/test_q1.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="72">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/StackQueue/Stack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+          <folding>
+            <element signature="e#124#136#0" expanded="true" />
+            <element signature="e#320#332#0" expanded="true" />
+            <element signature="e#401#413#0" expanded="true" />
+            <element signature="e#436#448#0" expanded="true" />
+            <element signature="e#442#454#0" expanded="true" />
+            <element signature="e#505#517#0" expanded="true" />
+            <element signature="e#894#906#0" expanded="true" />
+            <element signature="e#1034#1046#0" expanded="true" />
+            <element signature="e#1142#1154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/LinearTable/SequenceTable.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1741">
+        <state relative-caret-position="569">
           <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding>
             <element signature="e#139#158#0" expanded="true" />
@@ -404,28 +455,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/include/StackQueue/Queue.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/LinearTable/LinkedList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-519">
-          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="e#152#164#0" expanded="true" />
-            <element signature="e#328#340#0" expanded="true" />
-            <element signature="e#327#339#0" expanded="true" />
-            <element signature="e#958#970#0" expanded="true" />
-            <element signature="e#809#821#0" expanded="true" />
-            <element signature="e#1170#1182#0" expanded="true" />
-            <element signature="e#1247#1259#0" expanded="true" />
+            <element signature="e#144#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
