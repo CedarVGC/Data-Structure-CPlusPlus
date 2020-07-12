@@ -1,6 +1,7 @@
 #include <iostream>
 #include "..\test\Q2\test_q1.h"
-#include "../include/LinearTable/LinkedList.h"
+#include "..\include\LinearTable\LinkedList.h"
+#include "..\include\SString\SString.h"
 void test_LinkList(){
    LinkList<int> s;
    s.List_TailInsert(1);
@@ -14,6 +15,9 @@ void test_LinkList(){
 }
 int main() {
    //test_Q2();
-   test_LinkList();
+   //test_LinkList();
+   std::string s="abcd";
+   std::string t="dd";
+   std::cout<<Index(s,t);
    return 0;
 }

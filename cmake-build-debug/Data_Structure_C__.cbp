@@ -170,12 +170,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/include/StackQueue/Queue.h">
-			<Option target="Data_Structure_C__"/>
-		</Unit>
-		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/include/StackQueue/Stack.h">
-			<Option target="Data_Structure_C__"/>
-		</Unit>
 		<Unit filename="E:/GithubProject/Data-Structure-CPlusPlus/include/hello/hello.cpp">
 			<Option target="hello"/>
 		</Unit>

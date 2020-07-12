@@ -20,6 +20,12 @@ iostream
 cassert
 -
 
+E:/GithubProject/Data-Structure-CPlusPlus/include/SString/SString.h
+iostream
+-
+string
+-
+
 E:/GithubProject/Data-Structure-CPlusPlus/src/main.cpp
 iostream
 -
@@ -27,6 +33,8 @@ iostream
 E:/GithubProject/Data-Structure-CPlusPlus/test/Q2/test_q1.h
 ../include/LinearTable/LinkedList.h
 E:/GithubProject/Data-Structure-CPlusPlus/include/LinearTable/LinkedList.h
+../include/SString/SString.h
+E:/GithubProject/Data-Structure-CPlusPlus/include/SString/SString.h
 
 E:/GithubProject/Data-Structure-CPlusPlus/test/Q2/test_q1.h
 ../../Question/Q2/q1.h

@@ -4,6 +4,7 @@
 CMakeFiles/Data_Structure_C__.dir/src/main.cpp.obj: ../Question/Q2/q1.h
 CMakeFiles/Data_Structure_C__.dir/src/main.cpp.obj: ../include/LinearTable/LinkedList.h
 CMakeFiles/Data_Structure_C__.dir/src/main.cpp.obj: ../include/LinearTable/SequenceTable.h
+CMakeFiles/Data_Structure_C__.dir/src/main.cpp.obj: ../include/SString/SString.h
 CMakeFiles/Data_Structure_C__.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/Data_Structure_C__.dir/src/main.cpp.obj: ../test/Q2/test_q1.h
 
