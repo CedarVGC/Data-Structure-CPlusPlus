@@ -6,8 +6,11 @@
 #include <iostream>
 class hello{
 public:
+    int a=0;
     hello();
     ~hello();
     void say_hello();
 };
+
+
 #endif //DATA_STRUCTURE_C_HELLP_H

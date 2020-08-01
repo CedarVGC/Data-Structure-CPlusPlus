@@ -14,7 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/test/Q2/CMakeFiles/test_Q2.dir/DependInfo.cmake"
+  "E:/GithubProject/Data-Structure-CPlusPlus/cmake-build-debug/include/hello/CMakeFiles/hello.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

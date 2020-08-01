@@ -4,6 +4,7 @@
 #ifndef DATA_STRUCTURE_C_Q1_H
 #define DATA_STRUCTURE_C_Q1_H
 #include "../../include/LinearTable/SequenceTable.h"
+
 template <typename T>
 bool Del_Min(Sqlist<T> &L,T &value){
     if(L.Empty()){
@@ -173,7 +174,7 @@ void M_Search(Sqlist<T> &L){
 //12题
 template <typename T>
 int Majority(Sqlist<T> &L){
-
+    return  0;
 }
 //13题
 template <typename T>

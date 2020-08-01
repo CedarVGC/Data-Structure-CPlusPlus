@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Data_Structure_C__.dir/src/main.cpp.obj"
-  "Data_Structure_C__.pdb"
   "Data_Structure_C__.exe"
   "Data_Structure_C__.exe.manifest"
+  "Data_Structure_C__.pdb"
   "libData_Structure_C__.dll.a"
 )
 

@@ -18,7 +18,7 @@ class Sqlist{
         Sqlist(int MaxSize){this->MaxSize=MaxSize;data=new T[MaxSize];}
         Sqlist(T* data,int size);//数组形式初始化化
         ~Sqlist() {delete [] data;}
-        int Length(){ return length;};//表长
+        int Length(){ return length;}//表长
         void SetLength(int n){length=n; }
         bool Empty(){ return length==0;}//判空
         T& GetElem(int i);//查找第i位的元素的值

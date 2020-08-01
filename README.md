@@ -1,7 +1,7 @@
 # Data-Structure-CPlusPlus
 数据结构王道复习项目
 
-使用C++实现课后习题,开发平台CLion,编译器MinGW
+使用C++实现数据结构,开发平台CLion,编译器MinGW
 
 项目结构  
 include--存放数据结构实现代码  
